@@ -46,9 +46,6 @@ export class TodosComponent implements OnInit {
     })
   }
 
-  // toggle(){
-  //   this.isDone = !this.isDone;
-  // }
 
   delete(id: number){
     this.todos = this.todos.filter((v, i) => i != id);
